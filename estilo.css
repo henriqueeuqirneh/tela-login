@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Andale Mono,monospace;
+    font-family: Andale Mono, monospace;
     background: url(luffy-sleeping.png) no-repeat center fixed;
     background-size: cover;
     height: 100vh;
@@ -44,12 +44,27 @@ body {
 }
 
 .login-container button:hover {
-background-color: #0056b3;
+    background-color: #0056b3;
 
 }
 
 @media (max-width: 480px) {
     .login-container {
         width: 80%;
+    }
+
+    body {
+        background: url(luffy-sleeping.png);
+        background-size:cover;
+        background-position:70%;
+    }
+
+    .login-container h2 {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0e4a4a;
+       
+        
     }
 }
